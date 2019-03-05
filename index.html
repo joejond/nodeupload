@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My APP</title>
+</head>
+<body>
+
+    <!-- SINGGLE FILE-->
+    <form action="/uploadfile" enctype="multipart/form-data" method="POST">
+        <input type="file" name="myFile"/>
+        <input type="submit" value="Upload File"/>
+    </form>
+
+    <!-- MULTIPLE FILE-->
+    <form action="/uploadmulti" enctype="multipart/form-data" method="POST">
+        <input type="file" name="fileku"/>
+        <input type="submit" value="Upload File"/>
+    </form>
+
+    <!-- POTOH-->
+    <form action="/upload/photo" enctype="multipart/form-data" method="POST">
+        <input type="file" name="potoku"/>
+        <input type="submit" value="Upload Poto"/>
+    </form>
+    
+
+</body>
+</html>
